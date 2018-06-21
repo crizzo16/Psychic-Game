@@ -1,14 +1,16 @@
 body {
-    background: #cccccc;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;     
+    background: url(../images/PIA17005.jpg);
+    background-size: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;     
 }
 
 #header {
-    background: #ff00ff;
+    background: #00c1fb;
     height: 100px;
     width: 680px;
-    border: 5px ridge #4aaaa5;
-    border-radius: 20px;
+    border: 5px #ffffff double;
+    border-radius: 100px;
     margin: 20px auto 20px auto;
     padding: 10px;
     line-height: 80px;
@@ -20,23 +22,55 @@ body {
     font-weight: bold;
     font-size: 30px; 
     margin: 20px auto 20px auto;
+    color: #ffffff;
 }
 
 .main-title {
-    background: #ffffff;
+    background: rgba(255,255,255,.2);
     width: 730px;
     padding: 10px;
     margin: 20px auto 20px auto;
     text-align: center;
+    border-radius:200px;
 }
 
 .wrapper {
-    background: #c1c1c1;
+    background: rgba(255,255,255,.8);
     width: 710px;
+    height: 100px;  
     padding: 20px;
     margin: 0 auto 0 auto;
+    border: 10px #00c1fb outset;
+    text-align: center;
+    border-radius: 3px;
 }
 
 .after-space {
     margin-bottom: 10px;
+}
+
+.guesses-list {
+    font-size: 25px;
+}
+
+#guesses {
+    font-variant: small-caps;
+}
+
+.left-box {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 20px;
+}
+
+.middle-box {
+    float: left;
+    width: 33.34%;
+    margin-bottom: 20px;
+}
+
+.right-box {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 20px;
 }
